@@ -1,0 +1,15 @@
+filename: test
+model: model
+loss_weights:
+  CLASS_LOSS: 1.0
+  MASK_LOSS: 1.0
+optimizer:
+  LR: 0.0005
+  B1: 0.9
+  B2: 0.999
+train:
+  BATCH_SIZE: 128
+  EPOCHS: 100
+  CHECKPOINT_FREQ: 1
+  SAMPLE_FREQ: 1
+  
